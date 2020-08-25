@@ -18,11 +18,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-  var shoppingItems = []
-  for (let i=0; i < cart.length; i++) {
-    var itemName = Object.values(cart[i])[0]
-    var itemPrice = Object.values(cart[i])[1]
-    shoppingItems.push(`${itemName} at $${itemPrice}`)
+ 
 }
 
 function total() {
