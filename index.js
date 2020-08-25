@@ -35,7 +35,7 @@ function viewCart() {
   }
 
   console.log(`In your cart, you have ${itemsAndPrices.join(', ')}.`)
-}
+
 }
 
 function total() {
