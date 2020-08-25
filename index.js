@@ -43,7 +43,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code herefor (var i = 0; i < cart.length; i++){
+   for (var i = 0; i < cart.length; i++){
     if (item === cart[i].itemName) {
       cart.splice(i, 1); //removes 1 item at index i
       return cart;
